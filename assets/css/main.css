@@ -15711,8 +15711,8 @@ COLOR CUSTOMIZER
     background-color: transparent !important;
     position: absolute;
     z-index: 99;
-    left: 50%;
-    top: 50%;
+    left: 45%;
+    top: 75%;
     -webkit-transform: translate(-50%, -70%);
     -moz-transform: translate(-50%, -70%);
     -ms-transform: translate(-50%, -70%);
