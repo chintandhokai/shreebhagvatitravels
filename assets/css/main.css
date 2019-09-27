@@ -25,10 +25,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.polaroid {
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
-}
-
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
     font-size: 1.3333333333em;
@@ -14241,8 +14237,8 @@ COLOR CUSTOMIZER
 }
 
 .r-header .r-header-strip {
-    position: absolute;
-    top: 30px;
+    position: fixed;
+    top: 0px;
     z-index: 9999;
     background: #ffcd00;
     width: 100%;
@@ -14867,7 +14863,7 @@ COLOR CUSTOMIZER
 
 @media (max-width: 1024px) {
     .r-header .r-header-strip {
-        top: 20px;
+        top: 0;
     }
 
     .r-header .r-header-strip .r-nav-section nav ul {
@@ -17021,7 +17017,7 @@ div.r-who-we-outer {
 
 @media (max-width: 480px) {
     .r-header .r-header-strip {
-        position: relative;
+        position: fixed;
         top: inherit;
     }
 
@@ -18107,7 +18103,6 @@ a:focus {
 
 .r-sec-head {
     text-align: center;
-    padding: 100px 0 70px;
     position: relative;
 }
 
@@ -18144,15 +18139,9 @@ a:focus {
     top: 0;
     z-index: 0;
 }
-.r-sec-head.r-sec-head-a::after {
-    content: "Tour Package";
-}
-.r-sec-head.r-sec-head-g::after {
-    content: "Gallery";
-}
 
 .r-sec-head.r-sec-head-v::after {
-    content: "Vehicles";
+    content: "V";
 }
 
 .r-sec-head.r-sec-head-s::after {
@@ -18198,7 +18187,6 @@ a:focus {
 
 @media (max-width: 1400px) {
     .r-sec-head {
-        padding: 100px 0 50px;
     }
 
     .r-sec-head::after {
@@ -18217,7 +18205,6 @@ a:focus {
 
 @media (max-width: 1200px) {
     .r-sec-head {
-        padding: 80px 0 30px;
     }
 
     .r-sec-head::after {
@@ -18226,11 +18213,9 @@ a:focus {
 
     .r-sec-head h2 {
         font-size: 28px;
-        padding-top: 10px;
     }
 
     .r-sec-head.r-sec-head-line h2::after {
-        top: 15px;
     }
 
     .btn-full,
@@ -19265,10 +19250,6 @@ a:focus {
 }
 
 .r-latest-news {
-    background-image: url("../images/latest-news-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 50px;
     position: relative;
 }
 
@@ -19431,7 +19412,6 @@ a:focus {
     }
 
     .r-latest-news {
-        padding-bottom: 30px;
     }
 
     .r-latest-news .r-latest-news-single .d-inline-block {
