@@ -44,7 +44,7 @@
                         <div class="row clearfix">
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                 <div class="r-logo">
-                                    <a href="index.php" class="d-inline-block"><img src="assets/images/logo.png" class="img-fluid d-block" alt=""></a>
+                                    <a href="index.html" class="d-inline-block"><img src="assets/images/logo.png" class="img-fluid d-block" alt=""></a>
                                 </div>
                                 <a href="javaScript:void(0)" class="menu-icon"> <i class="fa fa-bars"></i> </a>
                             </div>
@@ -57,7 +57,7 @@
                                             </li>
 
                                             <li>
-                                                <a href="gallery.php">GALLERY</a>
+                                                <a href="gallery.html">GALLERY</a>
                                             </li>
                                             <li>
                                                 <a href="#about">ABOUT US</a>
