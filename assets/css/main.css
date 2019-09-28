@@ -14006,7 +14006,7 @@ a[class*='lightcase-icon-']:hover {
 
 a[class*='lightcase-icon-'].lightcase-icon-close {
     position: fixed;
-    top: 15px;
+    top: 15%;
     right: 15px;
     bottom: auto;
     margin: 0;
